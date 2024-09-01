@@ -5,6 +5,7 @@ html {
     font-family: "SUSE", system-ui;
     font-size: 16px;
     min-width: 400px;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -283,4 +284,73 @@ header {
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 3rem;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    height: 27rem;
+    background-color: #000000;
+    color: #d3d9d4 ;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+}
+
+footer h2 {
+    font-size: 3rem;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 10rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.footer-image-wrapper {
+    width: 60px;
+    height: auto;
+}
+
+.links a {
+    margin: 1rem;
+}
+
+#info {
+    width: 20%;
+    line-height: 1.3rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px){
+
+    footer {
+        height: 35rem;
+    }
+
+    .contact-info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links, #info {
+        width: 60%;
+        margin-bottom: 2rem;
+    }
+
+
 }
