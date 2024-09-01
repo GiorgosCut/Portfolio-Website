@@ -80,7 +80,7 @@ header {
 }
 
 #nav-list li a {
-    font-family: "Lato", system-ui;
+    font-family: "SUSE", system-ui;
     font-size: 1.4rem;
     text-decoration: none;
     color: #d3d9d4;
@@ -89,7 +89,12 @@ header {
     padding: 8px;
 }
 
-#nav-list li a:hover{
+#nav-list li a h3{
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#nav-list li a h3:hover{
 
     background-color: rgb(75, 74, 74);
     transition-duration: 0.3s;
@@ -331,7 +336,7 @@ footer h2 {
 
 #info {
     width: 20%;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
     text-align: center;
 }
 
