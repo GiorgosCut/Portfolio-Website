@@ -12,7 +12,9 @@
             <div id="logo-wrapper">
                 <img src="./resources/Logo.png" alt="Website Logo">
             </div>
-            <ul>
+            <input type="checkbox" id="menu-toggle"/>
+            <label for="menu-toggle" id="dropdown">☰</label>
+            <ul id="nav-list">
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#footer">Contact Me</a></li>
@@ -24,7 +26,8 @@
             <div class="about-me-wrapper">
                 <div id="summary">
                     <h5>Hi! I’m George, a Computer Science
-                        grad with a Master’s in Financial Mathematics. I’m focused
+                        grad with a Master’s in Financial Mathematics. <br>
+                         I’m focused
                         on becoming a full-stack engineer, passionate about
                         everything from the front-end to back-end development and connecting
                         the two.</h5>
@@ -36,7 +39,12 @@
         </div>
 
         <div class="projects" id="projects">
-
+            <div class="scrolling-wrapper">
+                <div class="card"><h2>Card</h2></div>
+                <div class="card"><h2>Card</h2></div>
+                <div class="card"><h2>Card</h2></div>
+                <div class="card"><h2>Card</h2></div>
+              </div>
         </div>
 
 
@@ -49,4 +57,6 @@
     <footer>
 
     </footer>
+
+    <script src="./script.js"></script>
 </html>
