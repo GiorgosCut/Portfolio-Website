@@ -137,6 +137,8 @@ header {
     justify-content: center;
     align-items: center;
     border: 1px #d3d9d4 solid;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 #about-image-wrapper img {
